@@ -1,0 +1,15 @@
+﻿# Python
+_pycache_/
+*.pyc
+.venv*/
+venv*/
+.env
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Frontend
+node_modules/
+# Build / artifacts
+backend/static/*.mp3

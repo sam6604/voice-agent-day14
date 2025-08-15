@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Day 12 – Conversational Voice Bot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Conversational AI Agent</h1>
+
+    <div class="topbar">
+      <button id="recordBtn" class="record-btn">
+        <span class="pulse"></span>
+        <span class="btn-text">Start Recording</span>
+      </button>
+
+      <div id="status" class="status-pill status-idle">
+        <span id="statusText">Idle</span>
+      </div>
+    </div>
+
+    <div class="session">
+      Session: <span id="sessionId">—</span>
+      <button id="historyBtn" class="link-btn">History</button>
+    </div>
+
+    <section class="chat">
+      <h2>Conversation</h2>
+      <div id="conversation" class="conversation"></div>
+      <audio id="player" preload="auto" class="hide"></audio>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
